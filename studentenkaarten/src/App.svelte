@@ -22,7 +22,6 @@
   }
 </script>
 
-<!-- jacco heeft mij svelte en typescript uitgelegd, maar ik heb het zelf gedaan -->
 <main>
   <input bind:value={filteredName} type="text" placeholder="search" id="search"/>
   <button on:click={() => (asc = !asc)}> {asc ? "asc" : "desc"} </button>
