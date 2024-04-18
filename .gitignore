@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 
+vendor
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -22,3 +23,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+yibojip656@ipniel.com
+1q2w3e4r5t6y7u8i9o0p

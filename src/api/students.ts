@@ -1,6 +1,6 @@
 //async function that fetches students
 // function to convert the response from the server to the student list
-const url = "http://localhost/api/students.php";
+const url = "http://dylanvanderven.fyi/Api/students.php";
 
 export async function fetchStudents(): Promise<Array<Student>> {
   const response = await fetch(url);
