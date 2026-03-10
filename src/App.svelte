@@ -1,11 +1,11 @@
 <script lang="ts">
-  import { fetchStudents } from "./api/students";
+  import { fetchStudents, type Student } from "./api/students";
   import Card from "./components/Card.svelte";
 
   let filteredName = "";
   let asc = true;
 
-  function sortAsc(a, b) {
+  function sortAsc(a: Student, b: Student) {
     if (a.lastName > b.lastName) {
       return 1;
     } else {
@@ -13,7 +13,7 @@
     }
   }
 
-  function sortDesc(a, b) {
+  function sortDesc(a: Student, b: Student) {
     if (b.lastName > a.lastName) {
       return 1;
     } else {
